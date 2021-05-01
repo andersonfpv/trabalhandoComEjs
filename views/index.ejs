@@ -1,19 +1,9 @@
 <!DOCTYPE html>
-<head>
-    
-    <title>Construindo com EJS</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />    <style>
-        body {
-            padding-top: 50px;
-        }
-    </style>
-</head>
+<%- include('head'); %>
 <body class="container">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">EJS</a>
-        </nav>
-    </header>  
+
+    <%- include('header'); %> 
+
     <main>
         <div class="jumbotron">
             <h1>Node com EJS</h1>
@@ -21,6 +11,7 @@
         </div>
     </main>
 
-    <footer class="text-center text-muted">Feito por Anderson Felipe</footer>
+    <%- include('footer'); %> 
+      
 </body>
 </html>
